@@ -1,9 +1,8 @@
+
+
 <?php
 session_start();
 ?>
-
-
-
 
 <!DOCTYPE html>
 <html lang="es">
@@ -13,8 +12,6 @@ session_start();
 </head
 <body>
   
-
-
 <div>
 <?php
 if (isset($_SESSION["usuario"])){
@@ -33,7 +30,6 @@ else{
   </form>
 <?php } ?>
 </div>
-
 
 </body>
 </html> 
